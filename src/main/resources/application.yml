@@ -11,7 +11,7 @@ spring:
   datasource:
     url: jdbc:postgresql://localhost:5432/insurance
     username: postgres
-    password: Venkat@08
+    password: Venkat08
     driverClassName: org.postgresql.Driver 
   sql:
     init:
