@@ -1,0 +1,24 @@
+
+
+spring:
+  application:
+    name: auth-service
+  jpa:
+    database: POSTGRESQL
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+  datasource:
+    url: jdbc:postgresql://localhost:5432/insurance
+    username: postgres
+    password: Venkat@08
+    driverClassName: org.postgresql.Driver 
+  sql:
+    init:
+      platform: postgres  
+jwt:
+  
+  secret: secretkey
+  
+server:
+  port: 6000
